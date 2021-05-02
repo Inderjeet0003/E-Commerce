@@ -1,0 +1,9 @@
+.products .card img {
+    padding: 10px;
+    border-radius: 15px;
+    height: 220px;
+}
+
+.products {
+    margin: 2px auto;
+}
