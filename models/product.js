@@ -16,10 +16,10 @@ const productSchema = new mongooose.Schema({
     desc: {
         type: String
     },
-    reviews: {
+    reviews: [{
         type: mongooose.Schema.Types.ObjectId,
         ref: 'Review'
-    }
+    }]
 })
 
 const Product = mongooose.model('Product', productSchema)
